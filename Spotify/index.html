@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha512-9BwLAVqqt6oFdXohPLuNHxhx36BVj5uGSGmizkmGkgl3uMSgNalKc/smum+GJU/TTP0jy0+ruwC3xNAk3F759A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify</title>
+</head>
+<body>
+    <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+    </div>
+    <div class="container">
+        <nav class="main-nav">
+            <img src="logo.png" alt="Spotify" class="logo">
+            <ul class="main-menu">
+                <li><a href="#">Premium</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Download</a></li>
+                <hr>
+                <li><a href="#">Sign up</a></li>
+                <li><a href="#">Log in</a></li>
+            </ul>
+        </nav>
+
+        <!-- showcase -->
+
+        <header class="showcase">
+            <h2>Listening is <br> everything</h2>
+            <p>Millions of songs and podcasts. No credit card needed.</p>
+            <a href="#" class="btn">
+                Get Spotify Free 
+            </a>
+        </header>
+
+        <!-- Footer -->
+        <!-- links -->
+        <section class="links">
+            <div class="links-inner">
+              <ul>
+                <li><img src="logo.png" alt="Spotify" class="logo"></li>
+              </ul>
+              <ul>
+                <li><h3>COMPANY</h3></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">For the Record</a></li>
+              </ul>
+              <ul>
+                <li><h3>COMMUNITIES</h3></li>
+                <li><a href="#">For Artists</a></li>
+                <li><a href="#">Developers</a></li>
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Inverstors</a></li>
+                <li><a href="#">Vendors</a></li>
+              </ul>
+              <ul>
+                <li><h3>USEFUL LINKS</h3></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Web Player</a></li>
+                <li><a href="#">Free Mobile App</a></li>
+              </ul>
+              <ul class="social">
+                <li><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter fa-2x"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook-f fa-2x"></i></a></li>
+              </ul>
+            </div>
+          </section>
+    
+          <!-- Footer -->
+          <footer class="footer">
+            <div class="footer-inner">
+              <ul>
+                <li><a href="#">Legal</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Privacy Center</a></li>
+                <li><a href="#">Cookies</a></li>
+                <li><a href="#">About Ads</a></li>
+                <li><a href="#">Additional CA Privacy Disclosures</a></li>
+              </ul>
+              <ul><li><a href="#">&copy; 2021 Spotify AB</a></li></ul>              
+            </div>
+          </footer>
+    </div>
+    <script>
+      document.querySelector('.menu-btn').addEventListener('click', () => document.querySelector('.main-menu').classList.toggle('show'));
+    </script>
+</body>
+</html>

@@ -1,0 +1,500 @@
+@font-face {
+    font-family: SF Pro;
+    src: url(img/FontsFree-Net-SFProDisplay-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: SF Pro;
+    background: #fff;
+    color: #1d1d1f;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+a {
+    color: #262626;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.btn {
+    color:#06c;
+    font-size: 18px;
+}
+
+.btn span:hover {
+    border-bottom:1px solid #06c;
+}
+
+.btn i {
+    margin: 0 20px 0 5px;
+}
+
+/* Nav */
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45px;
+    padding: 15px 250px;
+    font-size: 13px;
+    background: rgba(0,0,0,0.92);
+}
+
+.main-nav ul {
+    display: flex;
+}
+
+.logo {
+    margin-top: 6px;
+}
+
+.main-nav ul li{
+    padding: 0 18px;
+}
+
+.main-nav ul li a {
+    padding: 1px;
+    color:#fff;
+    opacity: 0.8;
+}
+
+.main-nav ul li a:hover {
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.main-nav ul.main-menu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.right-menu li a i {
+    margin-top: 20px;
+}
+/* intro */
+
+.intro {
+    width: 100%;
+    height: 150px;
+    background: #222222;
+    color: #fff;
+    background-size: 3010px 624px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.intro h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.intro p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.intro a {
+    color: #2997ff;
+}
+
+/* showcase */
+
+.showcase {
+    width: 100%;
+    height: 550px;
+    background: url('img/hero_iphone_13pro__dhnsegysa42u_large_2x.jpg') no-repeat center center;
+    background-size: 3010px 624px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    text-align: center;
+    padding-top: 20px;
+    margin: 10px 0;
+}
+
+.showcase h2 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #1d1d1f;
+}
+
+.showcase p {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.hero {
+    background: url(img/hero1.jpg)no-repeat center center;
+    background-size: 3010px 624px;
+}
+
+.hero img {
+    width: 63px;
+    height: auto;
+    margin-left: 703px;
+}
+
+/* iphone13  */
+
+.iphone13 {
+    background: url(img/hero_iphone_13__f194u1rdooeq_large_2x.jpg)no-repeat center center;
+    background-size: 3010px 624px;
+}
+
+.iphone13 h2 {
+    color: #fff;
+}
+
+.iphone13 p {
+    color: #fec2eb;
+}
+
+.iphone13 .btn {
+    color: #2997ff;
+}
+
+/* home cards */
+
+.home-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.card {
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.card h3 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.card p {
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+    margin-top: 4px;
+}
+
+.card a {
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.mac {
+    background: url(img/tile_macbookpro__cx0ur0qg9biq_large_2x.jpg) center center/cover;
+}
+
+.business {
+    background-color: #fbfbfd;
+    justify-content: center;
+}
+
+.airpods {
+    background: url(img/tile_airpods__fuv6vgn42y2q_large_2x.jpg) center center/cover;
+    justify-content: flex-end;
+}
+
+.watch {
+    background: url(img/tile_watch__e9n11b6m6yq2_large_2x.jpg) center center/cover;
+}
+
+.card img {
+    width: 150px;
+    height: auto;
+    margin-left: 297px;
+}
+
+.tag {
+    font-size: 12px !important;
+    color: #bf4800;
+}
+
+.red {
+    color: #cc242a;
+    font-size: 15px !important;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+}
+
+.apple-card {
+    background: url(img/tile__cauwwcyyn9hy_large_2x.jpg) center center/cover;
+}
+
+.apple-card img {
+    margin-bottom: 10px;
+    width: 120px;
+}
+
+.finch {
+    justify-content: flex-end;
+    background: url(img/promo_finch__dk1wetz9blw2_large_2x.jpg) center center/cover;
+}
+
+.finch h3 {
+    color: #fff;
+    letter-spacing: 0.5em;
+    font-size: 60px !important;
+    margin-top: 0;
+    padding: 0;
+    line-height: 1 !important;
+}
+
+.finch p {
+    color: #fff;
+    font-size: 12px ;
+}
+
+.finch img {
+    width: 80px;
+    height: auto;
+    margin-left: 330px;
+    margin-bottom: 10px;
+}
+
+.tom {
+    letter-spacing: 0.4em !important;
+    font-size: 21px !important;
+}
+
+.finch a {
+    color: #fff;
+}
+
+/* footer */
+
+.links {
+    padding-top:20px;
+}
+
+.links-inner {
+    width: 100%;
+    margin: 0;
+    padding: 10px 260px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    background: #f5f5f7;
+}
+
+.links li {
+    color: #6e6e73;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 2.3;
+}
+
+.links li a {
+    color: #6e6e73;
+}
+
+.links li a:hover{
+    border-bottom: 1px solid #6e6e73;
+}
+
+.links-inner .logo {
+    width: 130px;
+    height: auto;
+}
+
+.links-inner ul li h3 {
+    color: #1d1d1f;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 900;
+    line-height: 1.2;
+    padding: 10px 0;
+}
+
+
+
+/* Footer */
+.footer {
+    padding: 0px 100px;
+    background: #f5f5f7;
+}
+
+.footer-inner {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 11px;
+    padding-top: 10px;
+    border-top: 1px solid #babdc0;
+}
+
+.footer-inner ul li a {
+    color: #919496;
+    letter-spacing: 0;
+}
+
+.footer-inner ul li a:hover {
+    border-bottom: 1px solid #262626;
+}
+
+.footer div {
+    display: flex;
+    align-items: center;
+}
+
+.footer ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer li {
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+/* Responsive */
+
+@media(max-width: 700px) {
+
+    .main-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 45px;
+        padding: 15px 0px;
+        font-size: 13px;
+        background: rgba(0,0,0,0.92);
+    }
+
+    .intro h2 {
+        font-size: 28px;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .intro p {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .hero img {
+        width: 63px;
+        height: auto;
+        margin-left: 150px;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .menu-btn:hover {
+        opacity: 0.5;
+    }
+
+    .main-nav ul.right-menu {
+        margin-right: 50px;
+    }
+
+    .main-nav ul.main-menu {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #f2f2f2;
+        width: 50%;
+        height: 100%;
+        transform: translateX(-500px);
+        border-right: #ccc 1px solid;
+        opacity: 0.9;
+        padding: 30px;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .main-nav ul.main-menu.show li {
+        padding: 10px;
+        border-bottom: #ccc solid 1px;
+        font-size: 14px;
+    }
+
+    .main-nav ul.main-menu.show li:last-child {
+        border-bottom: 0px;
+    }
+
+    .main-nav ul.main-menu.show {
+        transform: translateX(-20px);
+    }
+
+    .main-nav .logo {
+        margin-left: 23px;
+    }
+
+    .home-cards {
+        grid-template-columns: 1fr;
+        padding: 0;
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+    }
+    
+    .hc2, .follow {
+        margin-left: 20px;
+    }
+
+    .outlook p, .showcase p {
+        display: none;
+    }
+
+    .card img {
+        margin-left: 114px;
+    }
+
+    .outlook h2, .showcase h2 {
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+
+    .links .links-inner {
+        grid-template-columns: 1fr;
+        padding: 10px 40px;
+    }
+
+    .footerall {
+        padding-left: 0;
+    }
+
+    .footer ul {
+        display: none;
+    }
+    
+}
